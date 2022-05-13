@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let dtk = Number(prompt("Mời các bạn nhập điểm: "));
+        switch (true) {
+            case (dtk >= 95 && dtk <= 100):
+                document.write("Xuất Sắc");
+                break;
+            case (dtk < 95 && dtk >= 85):
+                document.write("Gioi");
+                break;
+            case (dtk < 85 && dtk >= 70):
+                document.write("Khá");
+                break;
+            case (dtk < 70 && dtk >= 50):
+                document.write("Trung Bình");
+                break;
+            case (dtk < 50 && dtk >= 0):
+                document.write("Yếu");
+                break;
+            default:
+                document.write("Vui lòng nhập lại!!!");
+        }
+    </script>
+</body>
+
+</html>
